@@ -44,7 +44,7 @@ setProm = ("너의 역할은 내가 주는 조건에 맞는 음식을 3가지 �
 #for content in st.session_state.chat_session.history:
     
     #if content < 1: 
-        st.session_state.chat_session.send_message(setProm)
+st.session_state.chat_session.send_message(setProm)
 
 st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
 
